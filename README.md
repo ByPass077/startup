@@ -37,7 +37,7 @@ Have you ever wanted to know which tanks are liked the most? My startup provides
 <img src="tankRatingDesign.jpg" style="width:50%;" />
 
 #### Voting Page
-<img src="tankRatingVote.jpg" style="width:50%;" />
+<img src="tankRatingVoteDesign.jpg" style="width:50%;" />
 
 The top image shows what the ranked page would look like, displaying the tanks in highest to lowest rating and the votes each tank has received. The second image shows the voting page where users will select three tanks add a vote to.
 
