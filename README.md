@@ -34,7 +34,7 @@ Have you ever wanted to know which tanks are liked the most? My startup provides
 ### Design
 
 #### Ranked Page
-![Ranked Design image](tankRatingDesign.jpg){width=50%}
+![Ranked Design image](tankRatingDesign.jpg|50)
 
 #### Voting Page
 ![Voting Design image](tankRatingVote.jpg)
