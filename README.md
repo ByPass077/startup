@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-This application allows a signed in user to vote on their favorite 3 tanks. It then displays the tanks in order of greatest to least votes on the screen for the user to see.
+This application allows a user to create an account, then vote on their favorite tanks. It then displays the tanks in order of greatest to least votes on the screen for the all users to see. each tank will be listed and include a small picture of the tank for refrence.
 
 <!--
 A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -33,9 +33,13 @@ For those who know their tanks, have you ever wanted to know which tanks are lik
 
 ### Design
 
-![Design image](tankRatingDesign.jpg)
+#### Ranked Page
+![Ranked Design image](tankRatingDesign.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Voting Page
+![Voting Design image](tankRatingVote.jpg)
+
+The top image shows what the ranked page would look like, displaying the tanks in highest to lowest rating and the votes each tank has received. The second image shows the voting page where users will select three tanks add a vote to.
 
 ```mermaid
 sequenceDiagram
@@ -46,20 +50,23 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Login to save your votes
+- Cast votes and see real time updates to the ratings.
+- See the tanks in order from highest voted to least voted.
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Uses HTML for formatting. 3 HTML files wil be made, 1 for login, 1 for rating display, and 1 for voting page.
+- **CSS** - Used to implement graphic design to make the application look nice, using nice colors and graphics.
+- **React** - Will allow users to login, vote, and change pages between voting and ratings view page. 
+- **Service** - Backend service with endpoints for -
+    * login, logout, and register users
+    * retrieve choices for display
+    * submit votes
+- **DB/Login** - Store user information like login and vote choices.
+- **WebSocket** - Updates rankings for all to see.
 
 ## 🚀 AWS deliverable
 
