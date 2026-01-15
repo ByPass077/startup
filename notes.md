@@ -97,3 +97,7 @@ Handling the toggling of the checkboxes was particularly interesting.
   ))}
 </div>
 ```
+
+git pull
+git commit
+git push
