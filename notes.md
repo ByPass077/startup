@@ -101,3 +101,5 @@ Handling the toggling of the checkboxes was particularly interesting.
 git pull
 git commit
 git push
+ctrl + shift + g for source control (GUI)
+<!-- ![Ranked Design image](tankRatingDesign.jpg) --> image in markdown
