@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-This application allows a user to create an account, then vote on their favorite tanks. It then displays the tanks in order of greatest to least votes on the screen for the all users to see. each tank will be listed and include a small picture of the tank for refrence.
+This application allows a user to create an account, then vote on their favorite tanks. It then displays the tanks in order of greatest to least votes on the screen for the all users to see. Each tank will be listed and include a small picture of the tank for refrence.
 
 <!--
 A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -28,13 +28,13 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-For those who know their tanks, have you ever wanted to know which tanks are liked the most? My startup provides a way for users to vote on their favorite tanks and then see the overall ratings of all the tanks. The application will count up the total votes for each tank and display them in order from highest to lowest. Then we will know the favorite tank!
+Have you ever wanted to know which tanks are liked the most? My startup provides a way for users to vote on their favorite tanks and see the overall ratings of the tanks. The application will count up the total votes for each tank and display them in order from highest to lowest. Then we will know the favorite tank!
 
 
 ### Design
 
 #### Ranked Page
-![Ranked Design image](tankRatingDesign.jpg)
+![Ranked Design image](tankRatingDesign.jpg){width=50%}
 
 #### Voting Page
 ![Voting Design image](tankRatingVote.jpg)
