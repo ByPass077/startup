@@ -34,10 +34,10 @@ Have you ever wanted to know which tanks are liked the most? My startup provides
 ### Design
 
 #### Ranked Page
-![Ranked Design image](tankRatingDesign.jpg|50)
+![Ranked Design image,50%](tankRatingDesign.jpg)
 
 #### Voting Page
-![Voting Design image](tankRatingVote.jpg)
+![Voting Design image,50%](tankRatingVote.jpg)
 
 The top image shows what the ranked page would look like, displaying the tanks in highest to lowest rating and the votes each tank has received. The second image shows the voting page where users will select three tanks add a vote to.
 
