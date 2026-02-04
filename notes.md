@@ -280,3 +280,5 @@ ctrl + shift + g for source control (GUI)
     <button type="submit">Submit</button>
   </form>
 </body>
+
+sudo ssh -i CS260Tanks.pem ubuntu@installation07.site
