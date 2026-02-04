@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon HTML</title>
+    <link rel="icon" href="favicon.ico" />
+    </head>
+    <body>
+        <header>
+            <h1>Rate Tanks</h1>
+            <nav>
+                <menu>
+                    <li><a href="scores.html">Scores</a></li>
+                </menu>
+            </nav>
+        </header>
+        <hr />
+
+        <main>
+            <ul>
+                <li>
+                    <!-- Includes validation-->
+                    <label for="text">Text: </label>
+                    <input type="text" id="text" name="varText" placeholder="Username" required pattern="[Aa].*" />
+                </li>
+                <li>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="varPassword" placeholder="Password" />
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
