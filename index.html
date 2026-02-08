@@ -19,18 +19,17 @@
 
         <main>
             <h2>Login</h2>
-            <ul>
-                <li>
-                    <!-- Includes validation-->
-                    <label for="text">Text: </label>
-                    <input type="text" id="text" name="varText" placeholder="Username" required pattern="[Aa].*" />
-                </li>
-                <li>
-                    <label for="password">Password: </label>
-                    <input type="password" id="password" name="varPassword" placeholder="Password" />
-                </li>
-                <button type="submit">Login </button>
-            </ul>
+            <form method="get" action="vote.html">
+                <div>
+                    <span>Username</span>
+                    <input type="text" placeholder="username" />
+                </div>
+                <div>
+                    <span>Password</span>
+                    <input type="password" placeholder="password" />
+                </div>
+                <button type="submit">Login</button>
+            </form>
         </main>
         
         <footer>
