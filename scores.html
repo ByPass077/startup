@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <!-- Tell browsers not to scale the viewport automatically -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rate Tanks HTML</title>
 
-        <!-- CSS stuff -->
-        <link rel="stylesheet" href="index.css" />
+<head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rate Tanks HTML</title>
 
-        <!-- Bootstrap Framework -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-            crossorigin="anonymous"
-        />
-    </head>
+    <!-- CSS stuff -->
+    <link rel="stylesheet" href="index.css" />
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark">
-                <div class="container-fluid">
-                    <div class="d-flex align-items-center">
-                        <a class="navbar-brand mb-0" href="#">Rate Tanks</a>
-                        <div class="vr text-white mx-3" style="height: 70px; width: 3px; opacity: 1;"></div>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white py-0" href="scores.html">Scores</a>
-                            </li>   
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <!-- Bootstrap Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+</head>
 
-        <main>
-            <h2>User: Username</h2>
-            <h3>Tank Ratings</h3>
-            <!--Tank list will dynamically move and adjust 
+<body>
+    <header class="container-fluid">
+        <nav class="navbar fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">Rate Tanks</a>
+            <div class="vr text-white mx-3" style="height: 50px; width: 3px; opacity: 1;"></div>
+            <menu class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white-50" href=".html">Vote</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="scores.html">Scores</a>
+                </li>
+                <li>
+                            <span class="text-white py-0">User: Username</span>
+                </li>
+            </menu>
+        </nav>
+    </header>
+
+    <main>
+        <h2>User: Username</h2>
+        <h3>Tank Ratings</h3>
+        <!--Tank list will dynamically move and adjust 
             as scores are input to show highest rated on top.-->
-            <ol>
-                <li>(German flag) Pz.Kpfw. Tiger Ausf. B (King Tiger): Votes:9</li>
-                <li>(American flag) M4A3E2 Sherman (Jumbo): Votes:8</li>
-                <li>(German flag) Pz.Kpfw. VI (Tiger): Votes:5</li>
-                <li>(British Flag) Sherman VC (Firefly): Votes:2</li>
-                <!--More tanks will be added later.-->
-            </ol> 
-        </main>
+        <ol>
+            <li>(German flag) Pz.Kpfw. Tiger Ausf. B (King Tiger): Votes:9</li>
+            <li>(American flag) M4A3E2 Sherman (Jumbo): Votes:8</li>
+            <li>(German flag) Pz.Kpfw. VI (Tiger): Votes:5</li>
+            <li>(British Flag) Sherman VC (Firefly): Votes:2</li>
+            <!--More tanks will be added later.-->
+        </ol>
+    </main>
 
-        <footer class="bg-dark text-white-50">
-            <div class="container-fluid d-flex align-items-center">
-                <span class="text-reset">Isaac Garner</span>
-                <div class="vr mx-3"></div>
-                <a class="text-reset" href="https://github.com/webprogramming260/simon-css">GitHub</a>
-            </div>
-        </footer>
-        
-    </body>
+    <footer class="bg-dark text-white-50">
+        <div class="container-fluid d-flex align-items-center">
+            <span class="text-reset">Isaac Garner</span>
+            <div class="vr mx-3"></div>
+            <a class="text-reset" href="https://github.com/webprogramming260/simon-css">GitHub</a>
+        </div>
+    </footer>
+
+</body>
+
 </html>

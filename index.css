@@ -39,9 +39,13 @@ main h1 {
     font-size: 40px;
 }
 
-main span {
-    font-size: 25px;
+
+header span {
+    font-size: 23px !important;
+    padding-top: 7px;
 }
+
+
 
 
 

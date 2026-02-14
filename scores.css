@@ -1,15 +1,15 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 header {
-    flex: 0, 50px;
+    flex: 0 50px;
 }
 
 main {
-    flex: 1;
+    flex: 1 calc(100vh - 78px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,3 +19,16 @@ main {
 footer {
     flex: 0 28px;
 }
+
+menu {
+  flex: 1;
+  display: flex;
+  /*  overwrite Bootstrap so the menu does not wrap */
+  flex-direction: row !important;
+  list-style: none;
+}
+
+menu .nav-item {
+  padding: 0 0.3em;
+}
+
