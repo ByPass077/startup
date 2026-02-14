@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+    flex: 0, 50px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    flex: 0 28px;
+}
+
+.navbar-brand {
+    font-size: 40px !important;
+    padding-left: 0.3em;
+    color: white !important;
+}
+
+.nav-item {
+    font-size: 23px !important;
+    padding-top: 7px
+}
+
+.submit-button {
+    padding-left: 40%;
+}
+
+main h1 {
+    font-size: 40px;
+}
+
+main span {
+    font-size: 25px;
+}
+
+
+
