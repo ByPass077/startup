@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <!-- Tell browsers not to scale the viewport automatically -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rate Tanks HTML</title>
 
-        <!-- CSS stuff -->
-        <link rel="stylesheet" href="index.css" />
+<head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rate Tanks HTML</title>
 
-        <!-- Bootstrap Framework -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-            crossorigin="anonymous"
-        />
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark">
-                <div class="container-fluid">
-                    <div class="d-flex align-items-center">
-                        <a class="navbar-brand mb-0" href="index.html">Rate Tanks</a>
-                        <div class="vr text-white mx-3" style="height: 70px; width: 3px; opacity: 1;"></div>
-                        <ul class="navbar-nav mx-3">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" href="scores.html">Scores</a>
-                            </li> 
-                        </ul>
-                        
-                    </div>
+    <!-- CSS stuff -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Bootstrap Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- Bebas Neue Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand mb-0" href="index.html">Rate Tanks</a>
+                    <div class="vr text-white mx-3" style="height: 58px; width: 3px; opacity: 1;"></div>
+                    <ul class="navbar-nav mx-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="scores.html">Scores</a>
+                        </li>
+                    </ul>
+
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
-        <main>
+    <main>
+        <div class="login-box">
             <h1>Sign In</h1>
             <form method="get" action="vote.html">
                 <div class="mb-3">
@@ -44,20 +48,23 @@
                 </div>
                 <div class="mb-3">
                     <span>Password</span>
-                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="password" />
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                        placeholder="password" />
                 </div>
                 <div class="text-center">
                     <button class="btn btn-primary btn-lg" type="submit">Login</button>
                 </div>
             </form>
-        </main>
-        
-        <footer class="bg-dark text-white-50">
-            <div class="container-fluid d-flex align-items-center">
-                <span class="text-reset">Isaac Garner</span>
-                <div class="vr mx-3"></div>
-                <a class="text-reset" href="https://github.com/webprogramming260/simon-css">GitHub</a>
-            </div>
-        </footer>
-    </body>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white-50">
+        <div class="container-fluid d-flex align-items-center">
+            <span class="text-reset">Isaac Garner</span>
+            <div class="vr mx-3"></div>
+            <a class="text-reset" href="https://github.com/webprogramming260/simon-css">GitHub</a>
+        </div>
+    </footer>
+</body>
+
 </html>

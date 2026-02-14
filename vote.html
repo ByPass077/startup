@@ -1,86 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <!-- Tell browsers not to scale the viewport automatically -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rate Tanks HTML</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rate Tanks HTML</title>
+
+    <!-- CSS stuff -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Bootstrap Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- Bootstrap Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- Bebas Neue Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
     <header>
-        <h1>Rate Tanks</h1>
-            <nav>
-                <menu>
-                    <li><a href="index.html">Login</a></li>
-                    <li><a href="scores.html">Scores</a></li>
-                </menu>
-            </nav>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid d-flex align-items-center flex-nowrap overflow-auto">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand mb-0" href="index.html">Rate Tanks</a>
+                    <div class="vr text-white mx-3" style="height: 58px; width: 3px; opacity: 1;"></div>
+                    <ul class="navbar-nav d-flex flex-row flex-nowrap">
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50 text-nowrap" href="scores.html">Scores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white text-nowrap" href="vote.html">Vote</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex ms-auto">
+                    <span class="text-white text-nowrap d-none d-sm-inline">User: Username</span>
+                </div>
+            </div>
+        </nav>
     </header>
-    <hr />
 
     <body>
-        <h2>User: Username &nbsp;| &nbsp; Votes Left:2/3</h2>
-        <h3>Rate: Select 3 tanks to vote for.</h3>
-        <div>
-            <table>
-                <tr>
+        <div class="d-flex">
+            <h3> Votes Left:2/3</h3>
+            <h3 class="right ms-auto">Rate: Select 3 tanks to vote for</h3>
+        </div>
+        <main>
+            <div class="tank-list">
+                <div class="tank-item">
+                     <img src="your-image.jpg" alt="Description of the image">
+                    Pz.Kpfw. Tiger Ausf. B (King Tiger)
+                </div>
+            </div> 
+        </main>
+            <!-- <table>
+                <tr> -->
                     <!--Tiger II-->
-                    <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
+                    <!-- <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
                         <rect width="1000%" height="80%" fill="#D3D3D3"></rect>
-                        <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bundesarchiv_Bild_101I-721-0398-21A%2C_Frankreich%2C_Panzer_VI_%28Tiger_II%2C_K%C3%B6nigstiger%29.jpg/793px-Bundesarchiv_Bild_101I-721-0398-21A%2C_Frankreich%2C_Panzer_VI_%28Tiger_II%2C_K%C3%B6nigstiger%29.jpg"   
-                            x="9" y="9" width="110"/>
-                            <image href="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png"
-                                x="467" y="8" width="108"/>
-                        <text x="280" y="42" font-family="Arial" font-size="15"
-                            text-anchor="middle" dominant-baseline="middle" fill="#333">
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bundesarchiv_Bild_101I-721-0398-21A%2C_Frankreich%2C_Panzer_VI_%28Tiger_II%2C_K%C3%B6nigstiger%29.jpg/793px-Bundesarchiv_Bild_101I-721-0398-21A%2C_Frankreich%2C_Panzer_VI_%28Tiger_II%2C_K%C3%B6nigstiger%29.jpg"
+                            x="9" y="9" width="110" />
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png"
+                            x="467" y="8" width="108" />
+                        <text x="280" y="42" font-family="Arial" font-size="15" text-anchor="middle"
+                            dominant-baseline="middle" fill="#333">
                             Pz.Kpfw. Tiger Ausf. B (King Tiger)
                         </text>
-                    </svg>
+                    </svg> -->
                     <!--Tiger I-->
-                    <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
+                    <!-- <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
                         <rect width="1000%" height="80%" fill="#D3D3D3"></rect>
-                        <image href="https://upload.wikimedia.org/wikipedia/commons/b/ba/Bundesarchiv_Bild_101I-299-1805-16%2C_Nordfrankreich%2C_Panzer_VI_%28Tiger_I%29.2.jpg"   
-                            x="9" y="9" width="66"/>
-                        <image href="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png"
-                            x="467" y="8" width="108"/>
-                        <text x="280" y="42" font-family="Arial" font-size="15"
-                            text-anchor="middle" dominant-baseline="middle" fill="#333">
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/commons/b/ba/Bundesarchiv_Bild_101I-299-1805-16%2C_Nordfrankreich%2C_Panzer_VI_%28Tiger_I%29.2.jpg"
+                            x="9" y="9" width="66" />
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png"
+                            x="467" y="8" width="108" />
+                        <text x="280" y="42" font-family="Arial" font-size="15" text-anchor="middle"
+                            dominant-baseline="middle" fill="#333">
                             Pz.Kpfw. VI (Tiger)
                         </text>
-                    </svg> 
+                    </svg> -->
                     <!--Sherman Jumbo-->
-                    <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
+                    <!-- <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
                         <rect width="1000%" height="80%" fill="#D3D3D3"></rect>
-                        <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/M4A3E2_Sherman_Jumbo_75mm_gun.jpg/500px-M4A3E2_Sherman_Jumbo_75mm_gun.jpg"   
-                            x="9" y="9" width="82"/>
-                        <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg/500px-Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg.png"
-                            x="455" y="9" width="119"/>
-                        <text x="280" y="42" font-family="Arial" font-size="15"
-                            text-anchor="middle" dominant-baseline="middle" fill="#333">
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/M4A3E2_Sherman_Jumbo_75mm_gun.jpg/500px-M4A3E2_Sherman_Jumbo_75mm_gun.jpg"
+                            x="9" y="9" width="82" />
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg/500px-Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg.png"
+                            x="455" y="9" width="119" />
+                        <text x="280" y="42" font-family="Arial" font-size="15" text-anchor="middle"
+                            dominant-baseline="middle" fill="#333">
                             M4A3E2 Sherman (Jumbo)
                         </text>
-                    </svg> 
+                    </svg> -->
                     <!--Firefly-->
-                    <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
+                    <!-- <svg aria-hidden="true" viewBox="0 0 500 100" height="150" width="1000">
                         <rect width="1000%" height="80%" fill="#FDDE6C"></rect>
-                        <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/British_Sherman_Firefly_Namur.jpg/500px-British_Sherman_Firefly_Namur.jpg"   
-                            x="9" y="9" width="82"/>
-                        <image href="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/500px-Flag_of_the_United_Kingdom.svg.png"
-                            x="455" y="10" width="119"/>
-                        <text x="280" y="42" font-family="Arial" font-size="15"
-                            text-anchor="middle" dominant-baseline="middle" fill="#333">
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/British_Sherman_Firefly_Namur.jpg/500px-British_Sherman_Firefly_Namur.jpg"
+                            x="9" y="9" width="82" />
+                        <image
+                            href="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/500px-Flag_of_the_United_Kingdom.svg.png"
+                            x="455" y="10" width="119" />
+                        <text x="280" y="42" font-family="Arial" font-size="15" text-anchor="middle"
+                            dominant-baseline="middle" fill="#333">
                             Sherman VC (Firefly)
                         </text>
-                    </svg> 
+                    </svg>
                 </tr>
-            </table>
+            </table> -->    
         </div>
 
     </body>
 
-    <footer>
-        <hr />
-        <span>Isaac Garner</span>
-        <br /> 
-        <a href="https://github.com/ByPass077/startup">GitHub</a>
+    <footer class="bg-dark text-white-50">
+        <div class="container-fluid d-flex align-items-center">
+            <span class="text-reset">Isaac Garner</span>
+            <div class="vr mx-3"></div>
+            <a class="text-reset" href="https://github.com/webprogramming260/simon-css">GitHub</a>
+        </div>
     </footer>
+
 </html>
