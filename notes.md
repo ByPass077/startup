@@ -282,6 +282,7 @@ ctrl + shift + g for source control (GUI)
 </body>
 
 sudo ssh -i CS260Tanks.pem ubuntu@installation07.site
+./deployFiles.sh -k ~/CS260Tanks.pem -h installation07.site -s startup
 
 
 

@@ -78,5 +78,34 @@ body h3 {
     background-color: #a0acb8;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    width: 85vw;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tank-name {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tank-item:hover {
+    background-color: #f5e873;
+}
+
+/* Hide tank flags on small screens */
+@media (max-width: 670px) {
+    .flag-image {
+        display: none;
+    }
+    /* ensure names remain readable on small screens */
+    .tank-name {
+        font-size: 18px;
+        padding: 0 8px;
+    }
 }

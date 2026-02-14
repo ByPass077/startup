@@ -78,13 +78,13 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I added all the HTML pages for my application.
+- [x] **Proper HTML element usage** - I properly ordered all of my html and used different elemets.
+- [x] **Links** - I have links to github and all of the html pages
+- [x] **Text** - I added text to where it needed to be.
 - [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
+- [x] **Images** - tank images are added
+- [x] **Login placeholder** - I added a login placeholder.
 - [ ] **DB data placeholder** - I did not complete this part of the deliverable.
 - [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
 
@@ -92,12 +92,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Visually appealing colors and layout. No overflowing elements.** - I did not complete this part of the deliverable.
-- [ ] **Use of a CSS framework** - I did not complete this part of the deliverable.
-- [ ] **All visual elements styled using CSS** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I did not complete this part of the deliverable.
-- [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
+- [x] **Visually appealing colors and layout. No overflowing elements.** - My application resizes nicely and is visually appealing with simple colors and an easy to read layout.
+- [x] **Use of a CSS framework** - I used bootstrap for the header and footer, login, and a few other things.
+- [x] **All visual elements styled using CSS** - Each item has been styled and visually appealing.
+- [x] **Responsive to window resizing using flexbox and/or grid display** - I used flexbox to position items nicely and keep the screen ordered when resizing.
+- [x] **Use of a imported font** - I imported the bebas neue font from google fonts.
+- [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I used a variety of different selectors that made the most sense for where they were needed.
 
 ## 🚀 React part 1: Routing deliverable
 
