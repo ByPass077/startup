@@ -315,3 +315,5 @@ top	unit	50px	The vertical value of a positioned element
 transform	transform-function	rotate(0.5turn)	Applies a transformation to the element
 width	unit	25vmin	Sets the width of the box
 z-index	number	100	Controls the positioning of the element on the z axis
+
+## When cloning directory to new location, run npm install to downoad all of node_modules.
