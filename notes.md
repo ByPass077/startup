@@ -317,3 +317,13 @@ width	unit	25vmin	Sets the width of the box
 z-index	number	100	Controls the positioning of the element on the z axis
 
 ## When cloning directory to new location, run npm install to downoad all of node_modules.
+
+## How to create js/npm directory
+
+Create your project directory
+Initialize it for use with NPM by running npm init -y
+Make sure .gitignore file contains node_modules
+Install any desired packages with npm install package name here
+Add require('package name here') to your application's JavaScript
+Use the code the package provides in your JavaScript
+Run your code with node index.js
